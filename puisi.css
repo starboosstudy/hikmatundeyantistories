@@ -1,13 +1,14 @@
 /* Font dasar */
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Gloock', serif;
   color: #fff;
   background-image: url('ini\ deg.jpg'); /* ganti sesuai nama background mu */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 100vh;
+  height: 100%;
   overflow-x: hidden;
 }
 
@@ -74,6 +75,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  bottom:0;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
