@@ -1,7 +1,4 @@
 /* Font dasar */
-* {
-  box-sizing: border-box;
-}
 
 body {
   margin: 0;
@@ -71,7 +68,9 @@ body {
   transform: scale(1.05);
   background-color: rgba(255, 255, 255, 0.25);
 }
-
+* {
+  box-sizing: border-box;
+}
 /* Modal tampilan puisi */
 .modal {
   display: none; /* akan jadi block saat aktif */
