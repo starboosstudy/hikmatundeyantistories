@@ -92,12 +92,13 @@ body {
   margin: 10% auto;
   padding: 30px;
   width: 80%;
+  height: 80%;
   max-width: 600px;
   border-radius: 15px;
   white-space: pre-wrap;
   backdrop-filter: blur(8px);
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .close {
