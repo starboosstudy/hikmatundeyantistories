@@ -1,4 +1,8 @@
 /* Font dasar */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Gloock', serif;
@@ -70,36 +74,40 @@ body {
 
 /* Modal tampilan puisi */
 .modal {
-  display: none;
-  z-index: 1000;
-  width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
+  display: none; /* akan jadi block saat aktif */
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
 
 .modal-content {
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
   padding: 20px;
-  width: 80%;
+  width: 100%;
   max-width: 600px;
-  max-height: 80vh;
-  display: flex;
-  flex-direction: column;
+  max-height: 100%;
+  overflow: auto;
   border-radius: 20px;
-  box-shadow: 0 20 40px rgba(255, 255, 255, 0.3);
-  overflow: hidden; /* penting! supaya bagian dalamnya yang scroll */
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  position: relative;
 }
 
-.modal-body {
-  overflow-y: auto;
-  max-height: 100%;
+#poemContent {
   white-space: pre-wrap;
-  padding-right: 10px;
+  line-height: 1.6;
+  font-size: 1.1em;
 }
+
 
 .close {
   float: right;
