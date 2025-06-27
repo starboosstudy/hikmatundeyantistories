@@ -1,0 +1,134 @@
+/* Font dasar */
+body {
+  margin: 0;
+  font-family: 'Gloock', serif;
+  color: #fff;
+  background-image: url('ini\ deg.jpg'); /* ganti sesuai nama background mu */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Pembungkus utama */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Overlay konten */
+.overlay {
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Judul besar */
+.main-title {
+  font-family: 'Tangerine', cursive;
+  font-size: 5.5em;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 8px #000;
+}
+
+/* Bagian slider horizontal */
+.slider {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+.slider-track {
+  display: inline-flex;
+  gap: 16px;
+  padding-bottom: 8px;
+}
+
+.puisi-card {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  font-size: 1.1em;
+  color: #fff;
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.puisi-card:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Modal tampilan puisi */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  margin: 10% auto;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 15px;
+  white-space: pre-wrap;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #fff;
+}
+
+/* Tentang kamu */
+.about {
+    font-family: 'Seaweed Script', cursive;
+  margin-top: 40px;
+  font-size: 1em;
+  line-height: 1.7;
+  color: #fff;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.arrow {
+  font-size: 2em;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.arrow:hover {
+  transform: scale(1.3);
+}
