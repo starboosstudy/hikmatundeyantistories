@@ -84,6 +84,7 @@ body {
   padding: 30px;
   width: 80%;
   max-width: 600px;
+  max-height: 80vh;
   border-radius: 15px;
   white-space: pre-wrap;
   backdrop-filter: blur(8px);
