@@ -1,14 +1,13 @@
 /* Font dasar */
 body {
   margin: 0;
-  padding: 0;
   font-family: 'Gloock', serif;
   color: #fff;
-  background-image: url('ini\ deg.jpg'); /* ganti sesuai nama background mu */
+  background-image: url('bg-puisi.jpg'); /* ganti sesuai nama background mu */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
@@ -30,8 +29,8 @@ body {
 
 /* Judul besar */
 .main-title {
-  font-family: 'Tangerine', cursive;
-  font-size: 5.5em;
+  font-family: 'Shalimar', cursive;
+  font-size: 3.5em;
   margin-bottom: 50px;
   text-shadow: 2px 2px 8px #000;
 }
@@ -68,57 +67,50 @@ body {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
+/* Modal tampilan puisi */
 .modal {
   display: none;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px);
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* Isi modal (puisi box) */
 .modal-content {
   background-color: rgba(255, 255, 255, 0.1);
-  color: white;
+  color: #fff;
+  margin: 10% auto;
   padding: 30px;
   width: 80%;
   max-width: 600px;
-  max-height: 80vh;
-  overflow-y: auto;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
   white-space: pre-wrap;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
-/* Tombol X */
-.close-btn {
-  font-size: 24px;
-  color: white;
+.close {
   float: right;
+  font-size: 28px;
+  color: #ccc;
   cursor: pointer;
-  margin-bottom: 20px;
 }
+
 .close:hover {
   color: #fff;
 }
 
 /* Tentang kamu */
 .about {
-    font-family: 'Seaweed Script', cursive;
   margin-top: 40px;
   font-size: 1em;
   line-height: 1.7;
-  color: #fff;
-  padding: 0 20px;
-  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
 }
-
 .carousel {
   display: flex;
   justify-content: center;
