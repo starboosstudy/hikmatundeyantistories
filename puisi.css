@@ -67,29 +67,34 @@ body {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
-/* Modal tampilan puisi */
+/* Modal backdrop */
 .modal {
-  display: none; /* defaultnya hidden */
+  display: none;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.4); /* semi transparan hitam */
-  backdrop-filter: blur(8px); /* efek blur dreamy */
-  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
   justify-content: center;
   align-items: center;
+  z-index: 9999;
 }
 
+/* Modal content (puisi box) */
 .modal-content {
-  background-color: rgba(255, 255, 255, 0.1); 
+  background-color: rgba(255, 255, 255, 0.1);
   color: #fff;
-  padding: 30px 20px 40px 20px;
+  padding: 30px;
   width: 80%;
-  max-width: 600px;
+  max-width: 700px;
   max-height: 80vh;
   overflow-y: auto;
-  overflow-x:auto;
-  border-radius: 15px;
+  border-radius: 20px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
   white-space: pre-wrap;
+  backdrop-filter: blur(12px);
 }
 
 .close {
