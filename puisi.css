@@ -89,7 +89,11 @@ body {
   flex-direction: column;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-  overflow-x: hidden; /* penting! supaya bagian dalamnya yang scroll */
+  overflow-x: hidden;
+  position: absolute;
+  top: 50;
+  left: 50;
+  transform:(-50%,-50%);
 }
 
 .modal-body {
