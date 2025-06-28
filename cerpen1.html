@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cerpen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Dancing+Script&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cerpen1.css" />
+</head>
+<body>
+    <div class="bottom-panel">
+        <button class="arrow" onclick="prevCerpen()">&#10094;</button>
+        <div class="carousel-wrapper">
+          <h2 id="cerpenJudul">Judul Cerpen</h2>
+          <p id="cerpenSinopsis">Sinopsis akan muncul di sini...</p>
+        <button class="arrow" onclick="nextCerpen()">&#10095;</button>
+        </div>
+    </div>
+
+  <div class="top-panel">
+    <h1>Congratulation u're entering dey's mind</h1>
+    <p>Di balik mimpi, hujan, dan dongeng masa kecil — di sinilah dunia cerpen ku bernaung.</p>
+  </div>
+
+  <div class="popup" id="popup">
+    <button class="close-btn" onclick="closePopup()">Close ✖</button>
+    <div class="popup-content" id="popupContent">Loading...</div>
+  </div>
+
+  <script src="js/cerpen1.js"></script>
+</body>
+</html>

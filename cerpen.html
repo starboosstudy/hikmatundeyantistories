@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome, You Are Entering Dey's Mind</title>
+  <link rel="stylesheet" href="cerpen.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shalimar&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="magic-sparkle"></div>
+  <header>
+    <h1 id="mainTitle">Welcome, You Are Entering Dey's Mind</h1>
+    <p id="subtitle">Selamat menjelajahi pikiranku. Aku sarankan kau membawa sepuntung obat anti mual <br> yang digulung dengan sisa-sisa harimu. Barangkali kau muak saat menjelajahi pikiranku .</p>
+    <div id="cerpenSection" style="opacity: 0;"></div>
+  </header>
+
+  <div class="container" onclick="openModal()">
+    <div class="title-section" id="title">Judul Cerpen 1</div>
+    <div class="synopsis-section" id="synopsis">Ini adalah sinopsis dari cerpen pertama yang berisi misteri dan keajaiban dunia lain.</div>
+    </div>
+  </div>
+
+  <div class="nav-buttons">
+    <button onclick="prevStory()">&#8592; Prev</button>
+    <button onclick="nextStory()">Next &#8594;</button>
+  </div>
+
+  <div class="modal" id="modal">
+    <span class="close-modal" onclick="closeModal()">&times;</span>
+    <div class="modal-content" id="modalContent">
+      <h2>Judul Cerpen 1</h2>
+      <p>Ini adalah isi lengkap dari cerpen pertama. Dunia gelap diselimuti kabut, dan suara mantra terdengar dari balik bayangan...</p>
+    </div>
+  </div>
+
+  <script src="js/cerpen.js"></script>
+</body>
+</html>
