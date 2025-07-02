@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catatan Kaki Gadis Gila</title>
+  <link rel="stylesheet" href="diaries.css" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Homemade+Apple&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Tombol Sidebar (Hamburger) -->
+<button class="hamburger" onclick="toggleSidebar()">☰</button>
+
+<!-- Sidebar Daftar Isi -->
+<nav id="sidebar" class="sidebar hidden">
+  <ul>
+    <li><a href="#cerita1">Cerita 1</a></li>
+    <li><a href="#cerita2">Cerita 2</a></li>
+    <!-- Tambah cerita lain di sini -->
+  </ul>
+</nav>
+
+  <!-- Intro / Halaman Pertama -->
+  <section class="hero">
+    <div class="hero-inner">
+    <span class="sub1">jangan berisik<br>sebab ruangan ini sudah amat bising</span>
+      <h1 class="judul-tinta">Catatan kaki<br>gadis gila</h1>
+      <p>hikmatun deyanti's diaries</p>
+    </div>
+    <div class="scroll-icon" onclick="scrollKeCerita()">↓</div>
+  </section>
+
+  <!-- Cerita 1 -->
+  <!-- Container cerita akan dimasukkan di sini -->
+  <div id="cerita-container"></div>
+
+  <!-- Tempat modal ditampilkan -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="tutupModal()">&times;</span>
+      <div id="isi-modal"></div>
+    </div>
+  </div>
+
+  <script src="js/diaries.js"></script>
+<img src="ckb.png" class="jejak-dekoratif" alt="jejak kaki" />
+<img src="ckb.png" class="jejak-dekoratif2" alt="jejak kaki" />
+
+</body>
+</html>

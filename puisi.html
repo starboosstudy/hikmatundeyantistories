@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catatan Kaki Gadis Gila</title>
+  <link rel="stylesheet" href="puisi.css" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Hamburger Menu -->
+  <button class="hamburger" onclick="toggleSidebar()">☰</button>
+
+  <!-- Sidebar -->
+  <nav id="sidebar" class="sidebar hidden">
+    <ul id="daftar-isi">
+      <!-- Daftar isi akan diisi JS -->
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="sub1">semoga kau jadi cantik<br>saat menjelajahi ruangan ini</span>
+      <h1>Ruang Mati</h1>
+      <p>hikmatun deyanti</p>
+      <img src="img/gadis-menelungkup.png" alt="Lukisan Gadis" />
+    </div>
+    <div class="scroll-icon" onclick="scrollKePrakata()">↓</div>
+  </section>
+
+  <!-- Prakata -->
+  <section class="prakata" id="prakata">
+    <h2>Hallo<br>Aku dey!</h2>
+    <p class="subtitle">
+      ini adalah ruang mati. ku harap kau berhati-hati karena ada kepalaku di setiap sudut ruang. kau bisa berlari, tapi ku sarankan tidak.
+      Barangkali jikalau kau berjalan, kau bertemu aku di balik puis-puisiku yang kau temu.
+      Jika kau bertemu aku, ku harap kau jadi cantik, seperti puisi. Agar aku bisa berkunjung ke Ruang Mati-mu juga.
+    </p>
+    <h3>tertanda, gadis mati yang takut mati</h3>
+  </section>
+
+  <!-- Container Puisi -->
+  <div id="cerita-container"></div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="tutupModal()">&times;</span>
+      <div id="isi-modal"></div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="js/puisi.js"></script>
+</body>
+</html>
