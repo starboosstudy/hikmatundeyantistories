@@ -285,6 +285,8 @@ body {
 
 
 #toc {
+  display:flex;
+  flex-direction: column;
   list-style: none;
   padding: 0;
 }
@@ -293,6 +295,7 @@ body {
   margin: 10px;
   font-weight: bold;
   cursor: pointer;
+   display: block;
 }
 
 /* Popup Rahasia */
