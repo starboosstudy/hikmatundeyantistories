@@ -98,8 +98,6 @@ body {
   margin-right: 500px;
   gap: 0;
   line-height: 0.1;
-  position: relative;
-   z-index: 2;
 }
 
 .undangan .lanjutan {
@@ -115,8 +113,6 @@ body {
   margin-left: 250px;
   gap: 0;
   line-height: 1;
-  position:relative;
-  z-index: 2;
 }
 
 .undangan p{
@@ -144,8 +140,7 @@ body {
   font-size: 50px;
   margin-top: 0.05px;
   line-height: 0.05;
-  position:relative;
-   z-index: 2;
+  position: relative;
 }
 
 /* Override aturan default dari .section */
