@@ -306,7 +306,7 @@ body {
 
 #sidebar ul li {
   display: block;
-  padding: 10px 20px;   /* ← ini yang atur jarak kiri-kanannya */
+  padding: 10px 20px !important;   /* ← ini yang atur jarak kiri-kanannya */
   margin: 10px;
 }
 
