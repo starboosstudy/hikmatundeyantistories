@@ -301,12 +301,11 @@ body {
 #sidebar ul {
   display: flex;
   flex-direction: column;
-  padding: 0.1px;
+  padding: 0px;
 }
 
 #sidebar ul li {
   display: block;
-  padding: 10px 20px !important;   /* ← ini yang atur jarak kiri-kanannya */
   margin: 10px;
 }
 
