@@ -301,7 +301,7 @@ body {
 #sidebar ul {
   display: flex;
   flex-direction: column;
-  padding:0;
+  padding: 0.1px;
 }
 
 
