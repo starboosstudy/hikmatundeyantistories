@@ -276,12 +276,11 @@ body {
 
 #toc li {
   font-family: 'Georgia', serif;
-  padding: 10px 20px;
+  padding: 1px 20px;
   cursor: pointer;
   border-bottom: 1px dashed #999;
   color:#561c24;
 }
-
 
 
 #toc {
