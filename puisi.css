@@ -304,6 +304,12 @@ body {
   padding: 0.1px;
 }
 
+#sidebar ul li {
+  display: block;
+  padding: 10px 20px;   /* ← ini yang atur jarak kiri-kanannya */
+  margin: 10px;
+}
+
 
 /* Popup Rahasia */
 /*.popup {
