@@ -99,6 +99,7 @@ body {
   gap: 0;
   line-height: 0.1;
   position: relative;
+   z-index: 2;
 }
 
 .undangan .lanjutan {
@@ -115,6 +116,7 @@ body {
   gap: 0;
   line-height: 1;
   position:relative;
+  z-index: 2;
 }
 
 .undangan p{
@@ -129,6 +131,7 @@ body {
   text-align: center;
   margin-top: 0.05px;
   line-height: 7;
+   z-index: 2;
 }
 
 .undangan .uhuy{
@@ -142,6 +145,7 @@ body {
   margin-top: 0.05px;
   line-height: 0.05;
   position:relative;
+   z-index: 2;
 }
 
 /* Override aturan default dari .section */
