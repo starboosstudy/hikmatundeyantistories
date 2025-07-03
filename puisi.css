@@ -291,13 +291,6 @@ body {
   padding: 0;
 }
 
-#toc li {
-  margin: 1px;
-  font-weight: bold;
-  cursor: pointer;
-  display: block;
-}
-
 #sidebar ul {
   display: flex;
   flex-direction: column;
@@ -307,8 +300,8 @@ body {
 #sidebar ul li {
   display: block;
   margin: 0px !important;
-  padding-left: 1px !important;
-  padding-right: 1px !important;
+  padding-left: 0.1px !important;
+  padding-right: 0.1px !important;
 }
 
 
