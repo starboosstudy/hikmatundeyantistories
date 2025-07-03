@@ -2,85 +2,90 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ruang Mati</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="
+  default-src 'self'; 
+  script-src 'self' 'unsafe-inline'; 
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; 
+  font-src https://fonts.gstatic.com; 
+  img-src 'self' data:;">
+
+  <title>Catatan Kaki Gadis Gila</title>
   <link rel="stylesheet" href="puisi.css" />
+  
+  <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <!-- SIDEBAR TOGGLE (DILUAR NAV) -->
-<div class="sidebar-toggle" onclick="toggleSidebar()">☰</div>
 
-<!-- SIDEBAR -->
-<nav id="sidebar">
-  <ul id="toc">
-    <!-- Nanti diisi otomatis dari JS -->
-  </ul>
-</nav>
+  <!-- SIDEBAR TOGGLE -->
+  <div class="sidebar-toggle" onclick="toggleSidebar()">☰</div>
 
-<main>
-  <!-- Halaman Utama -->
-  <section id="halaman-utama" class="section undangan">
-    <div class="diamond-row">
-    <div class="diamond"></div>
-    <div class="diamond"></div>
-    <div class="diamond"></div>
-    </div>
+  <!-- SIDEBAR -->
+  <nav id="sidebar">
+    <ul id="toc">
+      <!-- Diisi oleh JS -->
+    </ul>
+  </nav>
 
-
-    <p>ditulis oleh hikmatun deyanti</p>
-    <h1>Ruang</h1>
-    <h1 class="lanjutan">Mati</h1>
-    <h2>kumpulan puisi</h2>
-    <p class="uhuy">Semoga kau jadi cantik saat keluar ruangan ini</p>
-
-    <!-- Panah Scroll -->
-    <div class="scroll-down" onclick="scrollToPuisi()">
-      <span>˅</span>
-    </div>
-
-  </section>
-
-  <!-- Prakata -->
-  <section id="halaman-prakata" class="section prakata">
-    <div class="diamond-coloum">
-    <div class="diamond"></div>
-    <div class="diamond"></div>
-    <div class="diamond"></div>
-    </div>
-
-    <div class="diamond-cright">
-    <div class="diamond"></div>
-    <div class="diamond"></div>
-    <div class="diamond"></div>
-    </div>
-
+  <main>
+    <!-- Halaman Utama -->
+    <section id="halaman-utama" class="section undangan">
+      <div class="diamond-row">
+        <div class="diamond"></div>
+        <div class="diamond"></div>
+        <div class="diamond"></div>
       </div>
-    <h1>Hallo, selamat berkunjung di Ruang Mati ku</h1>
-    <p>
-      Aku Dey, ini adalah ruang dimana aku menyemayamkan diri. Ku harap kau berhati-hati karena ada kepalaku disetiap sudut ruang.
-      Kau bisa berlari, tapi ku sarankan tidak. Barangkali jikalau kau berjalan, kau bertemu aku 
-      dibalik puis-puisiku. Jika kau bertemu aku, ku harap kau jadi cantik, seperti puisi. 
-      Agar aku bisa berkunjung ke 'Ruang Mati'-mu juga.
-    </p>
-    <h2>Tertanda,</h2>
-    <h2 class="ttd">Gadis mati yang takut mati</h2>
-  </section>
 
-  <div class="text-background">Dey's Poem</div>
+      <p>ditulis oleh hikmatun deyanti</p>
+      <h1>Ruang</h1>
+      <h1 class="lanjutan">Mati</h1>
+      <h2>kumpulan puisi</h2>
+      <p class="uhuy">Semoga kau jadi cantik saat keluar ruangan ini</p>
+
+      <div class="scroll-down" onclick="scrollToPuisi()"><span>˅</span></div>
+    </section>
+
+    <!-- Prakata -->
+    <section id="halaman-prakata" class="section prakata">
+      <div class="diamond-coloum">
+        <div class="diamond"></div>
+        <div class="diamond"></div>
+        <div class="diamond"></div>
+      </div>
+
+      <div class="diamond-cright">
+        <div class="diamond"></div>
+        <div class="diamond"></div>
+        <div class="diamond"></div>
+      </div>
+
+      <h1>Hallo, selamat berkunjung di Ruang Mati ku</h1>
+      <p>
+        Aku Dey, ini adalah ruang dimana aku menyemayamkan diri. Ku harap kau berhati-hati karena ada kepalaku disetiap sudut ruang.
+        Kau bisa berlari, tapi ku sarankan tidak. Barangkali jikalau kau berjalan, kau bertemu aku 
+        dibalik puis-puisiku. Jika kau bertemu aku, ku harap kau jadi cantik, seperti puisi. 
+        Agar aku bisa berkunjung ke 'Ruang Mati'-mu juga.
+      </p>
+      <h2>Tertanda,</h2>
+      <h2 class="ttd">Gadis mati yang takut mati</h2>
+    </section>
+
+    <div class="text-background">Dey's Poem</div>
 
     <!-- Kontainer Puisi -->
-  <section id="puisi-container" class="section">
+    <section id="puisi-container" class="section">
       <!-- Diisi oleh JS -->
-  </section>
-
-</main>
+    </section>
+  </main>
 
   <!-- Popup Rahasia -->
   <div id="popup" class="popup">
@@ -90,11 +95,12 @@
     </div>
   </div>
 
+  <!-- Script -->
   <script>
-  function closePopup() {
-    console.log("Close popup triggered!");
-    document.getElementById("popup").style.display = "none";
-  }
+    function closePopup() {
+      console.log("Close popup triggered!");
+      document.getElementById("popup").style.display = "none";
+    }
   </script>
   <script src="js/puisi.js"></script>
 
