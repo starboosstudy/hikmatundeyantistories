@@ -402,16 +402,6 @@ body {
   margin-left: 0;
 }
 
-.diamond-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 150px;
-  position: absolute;
-  left: 250px; /* ganti ke right: 30px kalau mau di kanan */
-  top: 8%;
-}
-
 .diamond {
   width: 10px;
   height: 10px;
