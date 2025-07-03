@@ -1,7 +1,7 @@
 body {
   font-family: 'Georgia', serif;
-  background-color: #0f1b2a;
-  color: #e0e0e0;
+  background-color: rgba(223,201,178,1);
+  color: #08285B;
   margin: 0;
   padding: 0;
 }
@@ -33,7 +33,7 @@ body {
 /* HERO */
 .hero {
   height: 100vh;
-  background-image: url('https://cdn.pixabay.com/photo/2020/01/30/17/26/book-4806983_1280.jpg');
+  /*background-image: url('ung.jpg');*/
  /* background diary vintage */
   background-size: cover;
   background-position: center;
@@ -42,11 +42,12 @@ body {
   justify-content: center;
   align-items: center;
   padding: 40px;
-  color: #f8f8f8;
+  color: rgba(223,201,178,1);
   text-align: center;
   position: relative;
   font-family: 'Gloock', serif;
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+  background-color:/* rgba(223,201,178,1);*/rgb(17, 42, 70);
 }
 
 .hero-inner {
@@ -63,7 +64,9 @@ body {
   font-size: 7em;
   margin-bottom: 0em;
   font-family: "Lavishly Yours", cursive;
+  font-weight: 599;
   line-height: 0.8em;
+  color: rgba(223,201,178,1);
 }
 
 .hero .sub1 {
@@ -75,7 +78,7 @@ body {
 }
 
 .hero p {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-bottom: 0.1px;
   font-family: "Lavishly Yours", cursive;
 }
@@ -132,9 +135,10 @@ body {
 /* CERITA */
 .cerita {
   max-width: 900px;
-  margin: 80px auto;
-  padding: 30px;
-  background-color: none;/*#18283c;*/
+  margin: 5px auto;
+  text-align: justify;
+  padding: 0.1px;
+  background-color:none;/* #18283c;*/
   border-radius: none;/*12px;*/
   position: relative;
   box-shadow: none;/*0 0 10px rgba(0,0,0,0.4);*/
@@ -145,13 +149,15 @@ body {
   margin-bottom: 15px;
   text-align: center;
   font-family: "Lavishly Yours", cursive;
+  font-weight: 599;
 }
 
 .teks {
   font-size: 1.5em;
   line-height: 1.5;
-  font-family: "EB Garamond", serif;
-  /*font-style: italic;*/
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 /* LIPATAN */
