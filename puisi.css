@@ -374,7 +374,7 @@ body {
 }
 
 .text-background {
-  position: relative;
+  position: absolute;
   text-align: center;
   top: 40%;
   left: 50%;
