@@ -292,7 +292,7 @@ body {
 }
 
 #toc li {
-  margin: 10px;
+  margin: 1px;
   font-weight: bold;
   cursor: pointer;
   display: block;
@@ -306,7 +306,7 @@ body {
 
 #sidebar ul li {
   display: block;
-  margin: 10px !important;
+  margin: 1px !important;
 }
 
 
