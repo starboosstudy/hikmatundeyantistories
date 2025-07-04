@@ -260,7 +260,8 @@ body {
 }
 
 .sidebar li {
-  margin: 20px 0;
+  padding: 15px 1px;
+  width: 100%;
 }
 
 .sidebar a {
