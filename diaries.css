@@ -1,6 +1,6 @@
 body {
   font-family: 'Georgia', serif;
-  background-color: rgba(223,201,178,1);
+  background-color: rgba(223,201,178,1)!important;
   color: #08285B;
   margin: 0;
   padding: 0;
