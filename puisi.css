@@ -160,13 +160,14 @@ body {
 
 
 .prakata h1 {
-  text-align: center;
+  text-align: left;
   color: #561c24;
   font-family: "Passions Conflict", cursive;
   font-weight: 400;
   /*font-family: 'Italianno',cursive;
   font-weight: 400;*/
   font-size: 50px;
+  margin-left: 200px;
 }
 
 .prakata h2{
