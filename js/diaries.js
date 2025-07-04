@@ -4,7 +4,7 @@ function toggleSidebar() {
 
 // Daftar cerita dan file .txt-nya
 const ceritaList = [
-  { id: 1, judul: "Cerita 1", isi: "Diaries/gadis.txt", rahasia: "Diaries/gadisR.txt" },
+  { id: 1, judul: "Ruang Milik Gadis Gila", isi: "Diaries/gadis.txt", rahasia: "Diaries/gadisR.txt" },
   { id: 2, judul: "Cerita 2", isi: "cerita2.txt", rahasia: "rahasia2.txt" },
   { id: 3, judul: "Cerita 3", isi: "cerita3.txt", rahasia: "rahasia3.txt" }
 ];
