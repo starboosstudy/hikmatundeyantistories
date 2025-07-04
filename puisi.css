@@ -1,3 +1,7 @@
+html {
+  font-display: swap;
+}
+
 body {
   font-family: 'Georgia', serif;
   background: #561c24 !important/*#fffcef*/; 
